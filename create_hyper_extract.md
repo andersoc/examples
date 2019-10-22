@@ -5,7 +5,7 @@
 
 Whats is [**Hyper API**](https://www.tableau.com/about/blog/2019/10/deliver-results-hyper-speed)?
 
-Hyper API is the evolution of our Extract API. The new API is fully compatible with hyper Tableau extract. The new API is available for Python, C++, Java and C#. For more information check this [**documentation**](https://help.tableau.com/current/api/hyper_api/en-us/index.html)
+Hyper API is the evolution of our Extract API. The new API is fully compatible with hyper Tableau extract. The new API is available for Python, C++, Java, and C#. For more information check this [**documentation**](https://help.tableau.com/current/api/hyper_api/en-us/index.html)
 
 What is the new features in the **Hyper API**?
 
@@ -24,7 +24,7 @@ One of the big upgrade is to use full CRUD(read, update, delete, and insert) sup
 [**Tableau Hyper API**](https://help.tableau.com/current/api/hyper_api/en-us/)
 
 
-#### As example, I am going to read the csv autos. This csv has 371527 records. To simplify this example, I am going to create a new dataframe with 3 columns.
+#### As an example, I am going to read the CSV autos. This CSV has 371527 records. To simplify this example, I am going to create a new data frame with three columns.
 
 
 ```python
@@ -60,7 +60,7 @@ autos.info()
     memory usage: 56.7+ MB
 
 
-#### I am going to use the fiels brand, model, and price.
+#### I am going to use the field brand, model, and price to create the table in the hyper file.
 
 
 ```python
@@ -135,7 +135,7 @@ auto_cp.head()
 
 
 
-#### The new dataframe was reduced to 3 columns, and the dataframe still have 371528 records.
+#### The new data frame has three columns now, and it still has 371528 records.
 
 
 ```python
@@ -169,28 +169,24 @@ Image(filename="annotation.png")
 
 
 
-#### The HyperProcess is going to start up a Hyper Database Server local as you can see in the image above.
+#### The HyperProcess is going to start up a Hyper Database Server local, as you can see in the image above.
 
 
 ```python
 HyperProcess = HyperProcess(telemetry=Telemetry.DO_NOT_SEND_USAGE_DATA_TO_TABLEAU)
 ```
 
-#### After that, I am going to create the name of the file and the create mode, in this case with the option create and replace.
-
-
 ```python
 connection = Connection(HyperProcess.endpoint, 'autos_r.hyper', CreateMode.CREATE_AND_REPLACE)
 ```
-
 
 ```python
 connection.catalog.create_schema('Extract')
 ```
 
-#### For more informations about the data types supported in this API consult the link bellow:
+#### For more information about the data types supported in this API consult the link bellow:
 
-[https://help.tableau.com/current/api/hyper_api/en-us/reference/sql/datatype.html]('https://help.tableau.com/current/api/hyper_api/en-us/reference/sql/datatype.html')
+[**https://help.tableau.com/current/api/hyper_api/en-us/reference/sql/datatype.html**]('https://help.tableau.com/current/api/hyper_api/en-us/reference/sql/datatype.html')
 
 
 
@@ -238,7 +234,7 @@ print('The Extract Load Ended')
     The Extract Load Ended
 
 
-#### After create the Hyper file, we can open the file in the Tableau.
+#### After creating the Hyper file, we can open the .hyper file in the Tableau.
 
 
 ```python
