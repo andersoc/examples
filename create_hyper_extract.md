@@ -17,7 +17,7 @@ One of the big upgrade is to use full CRUD(read, update, delete, and insert) sup
 5. Multi-table: Create multi-table extracts that match your data model.
 
 
-### For more information and uses cases find the links below:
+### For more information and use case find the links below:
 [**Delivery Results with Hyper**](https://www.tableau.com/about/blog/2019/10/deliver-results-hyper-speed)
 
 [**Tableau Hyper API**](https://help.tableau.com/current/api/hyper_api/en-us/)
