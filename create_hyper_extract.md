@@ -9,7 +9,7 @@ Hyper API is the evolution of our Extract API. The new API is fully compatible w
 
 What is the new features in the **Hyper API**?
 
-One of the big upgrade is to use full CRUD(read, update, delete, and insert) support, and create a sql to intereact with .hyper files. 
+One of the big upgrade is to use full CRUD(read, update, delete, and insert) support, and create a sql to interact with .hyper files. 
 
 1. Full CRUD: Read, update, delete, and insert data in .hyper files.
 2. Full speed: Leverage the full speed of Hyper for creating .hyper files.
