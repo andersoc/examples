@@ -29,7 +29,7 @@ One of the big upgrades is to use full CRUD(read, update, delete, and insert) su
 
 ```python
 import pandas as pd
-autos = pd.read_csv("/home/anderson/dataquest/datasources/autos.csv", encoding='Latin-1')
+autos = pd.read_csv("autos.csv", encoding='Latin-1')
 autos.info()
 ```
 
@@ -159,7 +159,7 @@ from tableauhyperapi import HyperProcess, Telemetry, Connection, CreateMode, NOT
 
 ```python
 from IPython.display import Image #display the image below.
-Image(filename="/mnt/c/Users/ander/Downloads/annotation.png")
+Image(filename="annotation.png")
 ```
 
 
@@ -243,7 +243,7 @@ print('The Extract Load Ended')
 
 ```python
 from IPython.display import Image #display the image below.
-Image(filename="/mnt/c/Temp/Annotation 2019-10-21 204037.png")
+Image(filename="Annotation 2019-10-21 204037.png")
 ```
 
 
@@ -256,7 +256,7 @@ Image(filename="/mnt/c/Temp/Annotation 2019-10-21 204037.png")
 
 ```python
 from IPython.display import Image #display the image below.
-Image(filename="/mnt/c/Temp/Annotation 2019-10-21 204507.png")
+Image(filename="Annotation 2019-10-21 204507.png")
 ```
 
 
