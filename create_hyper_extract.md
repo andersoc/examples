@@ -163,7 +163,7 @@ HyperProcess = HyperProcess(telemetry=Telemetry.DO_NOT_SEND_USAGE_DATA_TO_TABLEA
 ```
 
 ```python
-connection = Connection(HyperProcess.endpoint, 'autos_r.hyper', CreateMode.CREATE_AND_REPLACE)
+connection = Connection(HyperProcess.endpoint, 'autos.hyper', CreateMode.CREATE_AND_REPLACE)
 ```
 
 ```python
