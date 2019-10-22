@@ -5,11 +5,11 @@
 
 Whats is [**Hyper API**](https://www.tableau.com/about/blog/2019/10/deliver-results-hyper-speed)?
 
-Hyper API is evolution of our Extract API. The new API is fully compatible with hyper Tableau extract. The new api is available for Python, C++, Java and C#. For more information check this [**documentation**](https://help.tableau.com/current/api/hyper_api/en-us/index.html)
+Hyper API is the evolution of our Extract API. The new API is fully compatible with hyper Tableau extract. The new API is available for Python, C++, Java and C#. For more information check this [**documentation**](https://help.tableau.com/current/api/hyper_api/en-us/index.html)
 
 What is the new features in the **Hyper API**?
 
-One of the big upgrades is to use full CRUD(read, update, delete, and insert) support, and create a sql to intereact with .hyper files. 
+One of the big upgrade is to use full CRUD(read, update, delete, and insert) support, and create a sql to intereact with .hyper files. 
 
 1. Full CRUD: Read, update, delete, and insert data in .hyper files.
 2. Full speed: Leverage the full speed of Hyper for creating .hyper files.
